@@ -9,7 +9,9 @@
     "start": "node src/server.js",
     "start:fixtures": "node src/server.js --f test/account-fixtures.json",
     "debug": "node src/server.js -v",
-    "debug:fixtures": "node src/server.js -f test/account-fixtures.json -v"
+    "debug:fixtures": "node src/server.js -f test/account-fixtures.json -v",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Edison Lim",
   "license": "GPL-3.0-or-later",
@@ -51,6 +53,8 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "rimraf": "^2.6.2",
-    "yargs": "^13.2.1"
-  }
+    "yargs": "^13.2.1",
+    "snyk": "^1.190.0"
+  },
+  "snyk": true
 }
