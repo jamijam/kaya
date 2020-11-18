@@ -51,6 +51,6 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "rimraf": "^2.6.2",
-    "yargs": "^13.2.1"
+    "yargs": "^16.0.0"
   }
 }
