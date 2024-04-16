@@ -49,7 +49,7 @@
     "moment": "^2.22.2",
     "node-fs": "^0.1.7",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2",
+    "request-promise": "^4.2.6",
     "rimraf": "^2.6.2",
     "yargs": "^13.2.1"
   }
